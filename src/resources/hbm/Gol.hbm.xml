@@ -2,11 +2,12 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
   <class name="hibereuro2012.Gol" table="goal">
-      <id name="juego" column="matchid">
-      </id>
+      <composite-id>
+        <key-property name="juego" column="matchid" />
+        <key-property name="minuto" column="gtime" />
+      </composite-id>
       <property name="equipo" column="teamid" />
       <property name="jugador" column="player" />
-      <property name="minuto" column="gtime" />
   </class>
 </hibernate-mapping>
 

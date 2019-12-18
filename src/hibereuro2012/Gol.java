@@ -5,11 +5,13 @@
  */
 package hibereuro2012;
 
+import java.io.Serializable;
+
 /**
  *
  * @author meschoyez
  */
-public class Gol {
+public class Gol implements Serializable {
     private Integer juego;
     private String equipo;
     private String jugador;
