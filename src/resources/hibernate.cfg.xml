@@ -13,7 +13,7 @@
     <property name="hibernate.hbm2ddl.auto">update</property>
     <property name="hibernate.current_session_context_class">thread</property>
     <mapping resource="resources/hbm/Gol.hbm.xml"/>
-<!--    <mapping resource="resources/hbm/VariedadPizza.hbm.xml"/>
+    <!--    <mapping resource="resources/hbm/VariedadPizza.hbm.xml"/>
     <mapping resource="resources/hbm/TamanioPizza.hbm.xml"/>
     <mapping resource="resources/hbm/Pizza.hbm.xml"/>
     <mapping resource="resources/hbm/EstadoPedido.hbm.xml"/>
@@ -21,6 +21,6 @@
     <mapping resource="resources/hbm/Pedido.hbm.xml"/>
     <mapping resource="resources/hbm/DetallePedido.hbm.xml"/>
     <mapping resource="resources/hbm/Factura.hbm.xml"/>-->
+    <mapping resource="resources/hbm/Equipo.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
-

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="hibereuro2012.Equipo" table="eteam" >
+      <id name="id" ></id>
+      <property name="pais" column="teamname" />
+      <property name="entrenador" column="coach" />
+  </class>
+</hibernate-mapping>
